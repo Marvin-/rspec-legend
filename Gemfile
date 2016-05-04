@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'haml-rails'
 
+gem 'bootstrap-sass'
+
 gem 'jquery-rails'
 
 gem 'turbolinks', '~> 5.x'
