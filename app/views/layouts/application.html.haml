@@ -8,4 +8,11 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track' => 'reload'
   %body
+    .container-fluid
+      .collapse.navbar-collapse.navbar-ex1-collapse
+        %ul.nav.navbar-nav
+          %li 
+            = link_to 'New Achievement', new_achievement_path
+          %li.active
+            %a{:href => "#"} Link
     = yield
