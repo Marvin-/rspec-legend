@@ -15,4 +15,7 @@
             = link_to 'New Achievement', new_achievement_path
           %li.active
             %a{:href => "#"} Link
+    - if flash[:notice]
+      .alert.alert-info
+        = flash[:notice]
     = yield
